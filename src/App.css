@@ -1,52 +1,55 @@
-body{
-  
-  background-image: url(https://img-a.udemycdn.com/course/750x422/2700008_4f64_3.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+body {
+	background-image: url(https://img-a.udemycdn.com/course/750x422/2700008_4f64_3.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
-.App{
-  background-color: #3f3160;
-  border-radius: 50px;
-  min-height:500px;
-  width: 400px;
-  margin: 40px auto;
+.App {
+	background-color: #3f3160;
+	border-radius: 50px;
+	min-height: 500px;
+	width: 500px;
+	margin: 40px auto;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+.refreshButton {
+	border-style: solid;
+}
 
+#clr {
+	display: block;
+	margin: auto;
+	width: 100px;
+	height: 50px;
+	background-color: black;
+	color: #fff;
+	cursor: pointer;
 }
-
-#clr{
-  display: block;
-  margin: auto;
-  width: 100px;
-  height:50px;
-  background-color: black;
-  color: #fff;
-  cursor: pointer;
+#to-do-form input {
+	background-color: rgba(27, 112, 137, 1);
+	border: 0;
+	color: #fff;
+	width: 200px;
+	height: 50px;
+	margin: 20px;
+	padding: 0 20px;
+	font-size: 18px;
+	border-radius: 10px;
 }
-#to-do-form input{
-  background-color: rgba(27, 112, 137, 1);
-  border: 0; 
-  color: #fff;
-  width: 200px;
-  height: 50px;
-  margin: 20px;
-  padding: 0 20px;
-  font-size: 18px;
-  border-radius: 10px;
+#to-do-form input::placeholder {
+	color: rgba(255, 255, 255, 0.5);
 }
-#to-do-form input::placeholder{
-  color: rgba(255,255,255,0.5);
+#to-do-form input:focus {
+	outline: none;
 }
-#to-do-form input:focus{
-  outline: none;
+#to-do-form button {
+	height: 50px;
+	width: 80px;
+	border-radius: 5px;
+	border: 0;
+	background-color: rgba(202, 156, 24, 1);
+	cursor: pointer;
 }
-#to-do-form button{
-  height: 50px;
-  width: 80px;
-  border-radius: 5px;
-  border: 0;
-  background-color:rgba(202, 156, 24, 1); 
-  cursor: pointer;
-}
-#to-do-form button:focus{
-  outline: none;
+#to-do-form button:focus {
+	outline: none;
 }
